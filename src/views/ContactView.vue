@@ -1,6 +1,7 @@
 <template>
   <div class="intro-main">
     <h1 class="text-h4 text-md-h2 text-center font-weight-black contact-heading">Contact Us</h1>
+    <h2 class="text-h6 text-md-h5 text-center font-weight-black contact-heading">If you have any questions on the services we offer or if you need a custom quote on services, please contact us using the info below.</h2>
     <ContactDetails />
   </div>
 </template>
@@ -26,7 +27,7 @@ export default {
   box-sizing: border-box;
 }
 .contact-heading {
-  padding: 20px; /* Add 20px of padding */
+  padding: 10px; /* Add 20px of padding */
   margin-bottom: 0; /* Remove bottom margin */
   margin-top: 80px; /* Add top margin to avoid being covered by the header */
 }
