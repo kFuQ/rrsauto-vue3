@@ -31,7 +31,7 @@
             class="mx-auto transition-swing"
           >
             <h3
-              class="text-h4 text-center font-weight-black white--text pt-5"
+              class="text-h5 text-center font-weight-black white--text pt-5"
               v-text="plan.plan"
             ></h3>
             <v-card-text

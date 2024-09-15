@@ -11,14 +11,7 @@
             >If you don't see the service you're looking for, just ask!</strong
           ><br /><br />
           Our experienced technicians can definitely handle your vehicle's
-          problem. Contact us via phone, email or
-          <a
-            href="https://maps.app.goo.gl/hpqARwi6HrWtv4ct8"
-            target="_blank"
-            rel="noreferrer"
-            >in person</a
-          >
-          for more information about the kinds of different services that we
+          problem. <router-link to="/contact">Contact Us</router-link> or see the <router-link to="/pricing">pricing page</router-link> for more information about the kinds of different services that we
           offer.<br/>
         </p>
       </v-responsive>
