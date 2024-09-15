@@ -3,7 +3,7 @@
     <v-container fluid class="intro-main">
       <v-row align="center" justify="space-between">
         <v-col cols="auto" class="logo-container ">
-          <LogoTwo />
+          <LogoRaven />
         </v-col>
         <v-spacer></v-spacer>
         <v-col cols="auto" class="theme-switch-container mt-5">
@@ -25,12 +25,11 @@
 </template>
 
 <script>
-import LogoTwo from '../assets/LogoTwo.vue'
-
+import LogoRaven from '../assets/LogoRaven.vue'
 export default {
   name: 'TopHeader',
   components: {
-    LogoTwo
+    LogoRaven
   },
   data() {
     return {
@@ -62,6 +61,8 @@ export default {
   display: flex;
   justify-content: flex-start;
   padding-left: 75px; /* Add padding to the left */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .theme-switch-container {
   display: flex;

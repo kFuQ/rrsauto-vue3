@@ -2,7 +2,7 @@
   <section id="intro" class="py-12 intro-main">
     <v-container>
       <v-responsive class="max-auto mx-auto text-center" max-width="80%">
-  
+        <h1 class="text-h1 text-md-h2 text-center font-weight-black mb-5">Raven Mobile Auto and RV</h1><br>
         <h2 class="text-h4 text-md-h4 text-center font-weight-black mb-5">
           The Raven Mobile Auto and RV Difference
         </h2>
@@ -93,7 +93,7 @@ export default {
 <style scoped>
 .intro-main {
   width: 80%;
-  height: 100%;
+  height: 1200px;
   margin: 0 auto; /* Center the component */
 }
 .card-spacing {

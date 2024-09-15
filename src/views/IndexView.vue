@@ -1,6 +1,6 @@
 <template >
   <div class="intro-main"><br />
-    <h1>Raven Mobile Auto and RV</h1>
+    
     <IntroMain />
   </div>
 </template>
