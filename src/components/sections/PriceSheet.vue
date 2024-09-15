@@ -50,11 +50,9 @@
                 :key="`feature-${ik}`"
                 dense
               >
-                <v-list-item-content>
-                  <v-list-item-title
-                    class="text-capitalize"
-                  >{{ feature.text }}</v-list-item-title>
-                </v-list-item-content>
+                <v-list-item-title
+                  class="text-capitalize"
+                >{{ feature.text }}</v-list-item-title>
               </v-list-item>
               <v-list-item>
                 <a href="/contact">
