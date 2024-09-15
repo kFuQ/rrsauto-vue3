@@ -108,5 +108,36 @@ export default {
   .intro-main {
     min-height: 160vh; /* Adjust minimum height for screens between 600 and 1000 pixels wide */
   }
+  .card-spacing {
+    margin-top: 30px; /* Decrease spacing between cards */
+  }
+}
+@media (min-width: 476px) and (max-width: 600px) {
+  .intro-main {
+    min-height: 150vh; /* Adjust minimum height for screens between 476 and 600 pixels wide */
+  }
+  .card-spacing {
+    margin-top: 20px; /* Reduce spacing between cards */
+  }
+}
+@media (max-width: 475px) {
+  .card-spacing {
+    margin-top: 30px; /* Decrease spacing between cards for screens 475px and smaller */
+  }
+}
+@media (max-width: 380px) {
+  .intro-main {
+    min-height: 210vh; /* Increase minimum height for screens 380px and smaller */
+  }
+}
+@media (max-width: 290px) {
+  .intro-main {
+    min-height: 260vh; /* Increase minimum height for screens 290px and smaller */
+  }
+}
+@media (max-width: 235px) {
+  .intro-main {
+    min-height: 290vh; /* Increase minimum height for screens 235px and smaller */
+  }
 }
 </style>

@@ -32,4 +32,10 @@ export default {
     padding: 10px;
   }
 }
+@media (min-width: 476px) and (max-width: 600px) {
+  .intro-main {
+    padding: 7px;
+    min-height: 150vh; /* Adjust minimum height for screens between 476 and 600 pixels wide */
+  }
+}
 </style>
