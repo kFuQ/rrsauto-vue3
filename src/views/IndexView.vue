@@ -1,0 +1,21 @@
+<template >
+  <div class="intro-main"><br />
+    <h1>Raven Mobile Auto and RV</h1>
+    <IntroMain />
+  </div>
+</template>
+
+<script>
+import IntroMain from '@/components/sections/IntroMain.vue'
+
+export default {
+  name: 'HomePage',
+  components: {
+    IntroMain
+  }
+}
+</script>
+
+<style scoped>
+/* Add any styles for your home page here */
+</style>
