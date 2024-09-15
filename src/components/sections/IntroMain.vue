@@ -2,10 +2,6 @@
   <section id="intro" class="py-12 intro-main">
     <v-container>
       <v-responsive class="max-auto mx-auto text-center" max-width="80%">
-        <h1 class="text-h1 text-md-h3 text-center font-weight-black mb-5">Raven Mobile Auto and RV</h1><br>
-        <h2 class="text-h4 text-md-h4 text-center font-weight-black mb-5">
-          The Raven Mobile Auto and RV Difference
-        </h2>
         <p class="title font-weight-light">
           You and your confidence are the most important piece of the puzzle. We
           provide a wide range of automotive repair services for your
@@ -93,7 +89,7 @@ export default {
 <style scoped>
 .intro-main {
   width: 80%;
-  min-height: 1200px; /* Set minimum height */
+  min-height: 140vh; /* Set minimum height */
   margin: 0 auto; /* Center the component */
 }
 .card-spacing {
@@ -102,10 +98,15 @@ export default {
 @media (max-width: 600px) {
   .intro-main {
     width: 100%;
-    min-height: 2000px; /* Adjust minimum height for mobile devices */
+    min-height: 2500px; /* Adjust minimum height for mobile devices */
   }
   .card-spacing {
     margin-top: 40px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+  .intro-main {
+    min-height: 160vh; /* Adjust minimum height for screens between 600 and 1000 pixels wide */
   }
 }
 </style>

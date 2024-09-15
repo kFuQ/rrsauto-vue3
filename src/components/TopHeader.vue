@@ -6,9 +6,9 @@
           <LogoRaven />
         </v-col>
         <v-col cols="auto" class="nav-menu">
-          <v-btn text to="/" class="nav-item">Home</v-btn>
-          <v-btn text to="/contact" class="nav-item">Contact</v-btn>
-          <v-btn text to="/pricing" class="nav-item">Pricing</v-btn>
+          <router-link to="/" class="nav-item">Home</router-link>
+          <router-link to="/contact" class="nav-item">Contact</router-link>
+          <router-link to="/pricing" class="nav-item">Pricing</router-link>
         </v-col>
         <v-col cols="auto" class="theme-switch-container mt-5">
           <v-switch
@@ -75,6 +75,11 @@ export default {
 .nav-item {
   font-weight: bold;
   margin: 0 10px; /* Ensure items are spaced out by at least 20px */
+  text-decoration: none;
+  color: var(--text-color);
+}
+.nav-item:hover {
+  color: var(--primary-color);
 }
 .theme-switch-container {
   display: flex;
