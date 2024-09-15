@@ -11,7 +11,7 @@
             >If you don't see the service you're looking for, just ask!</strong
           ><br /><br />
           Our experienced technicians can definitely handle your vehicle's
-          problem. <a href="/contact">Contact us</a> via phone, email or
+          problem. Contact us via phone, email or
           <a
             href="https://maps.app.goo.gl/hpqARwi6HrWtv4ct8"
             target="_blank"
