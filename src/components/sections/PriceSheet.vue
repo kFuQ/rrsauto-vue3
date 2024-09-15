@@ -82,7 +82,7 @@ export default {
       planDuration: 'monthly',
       plans: [
         {
-          plan: 'Service & Maintence',
+          plan: 'Maintence',
           elevation: 0,
           color: 'primary darken-1',
           description: 'Regular Service and Maintanence',
