@@ -55,7 +55,7 @@
                 >{{ feature.text }}</v-list-item-title>
               </v-list-item>
               <v-list-item>
-                <a href="/contact">
+                <router-link to="/contact">
                   <v-btn
                     color="primary"
                     large
@@ -65,7 +65,7 @@
                   >
                     Schedule Service
                   </v-btn>
-                </a>
+                </router-link>
               </v-list-item>
             </v-list>
           </v-card>
