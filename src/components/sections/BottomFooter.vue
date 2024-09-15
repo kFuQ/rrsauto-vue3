@@ -23,14 +23,20 @@ export default {
 </script>
 
 <style>
-  .text-center {
-    text-align: center;
-  }
+.text-center {
+  text-align: center;
+}
+.footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 50px; /* Add padding at the bottom */
+}
+@media (max-width: 600px) {
   .footer {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 20px;
-    text-align: center;
-    padding-bottom: 50px; /* Add padding at the bottom */
+    padding: 10px;
+    padding-bottom: 30px;
   }
+}
 </style>

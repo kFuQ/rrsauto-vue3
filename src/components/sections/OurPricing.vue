@@ -1,5 +1,5 @@
 <template>
-  <section :class="$vuetify.theme.dark ? 'black' : 'white'" class="py-16">
+  <section class="intro-main py-16">
     <v-container>
       <v-row>
         <v-col>
@@ -50,7 +50,6 @@
               ></h3>
               <v-card-text
                 class="text-center subtitle-1 white--text py-2"
-                v-text="plan.description"
               ></v-card-text>
               <v-card-subtitle
                 class="text-h5 font-weight-black text-center white--text pt-0"
@@ -73,7 +72,6 @@
                   <v-list-item-content>
                     <v-list-item-title
                       class="text-capitalize"
-                      v-text="feature.text"
                     ></v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>

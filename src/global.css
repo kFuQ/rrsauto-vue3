@@ -1,5 +1,5 @@
 :root {
-  --background-color: #ffffff;
+  --background-color: #c3c0c0;
   --text-color: #2c3e50;
   --primary-color: #1976d2;
   --secondary-color: #424242;
@@ -43,10 +43,10 @@ a {
 }
 
 .footer {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 20px;
-    text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
 }
 
 .v-app-bar {

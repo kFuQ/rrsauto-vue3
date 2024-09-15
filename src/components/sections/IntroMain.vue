@@ -93,10 +93,19 @@ export default {
 <style scoped>
 .intro-main {
   width: 80%;
-  height: 1200px;
+  min-height: 1200px; /* Set minimum height */
   margin: 0 auto; /* Center the component */
 }
 .card-spacing {
   margin-top: 75px; /* Add spacing on top of the cards */
+}
+@media (max-width: 600px) {
+  .intro-main {
+    width: 100%;
+    min-height: 2000px; /* Adjust minimum height for mobile devices */
+  }
+  .card-spacing {
+    margin-top: 40px;
+  }
 }
 </style>

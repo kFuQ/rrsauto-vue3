@@ -5,7 +5,7 @@ import './registerServiceWorker'
 import router from './router'
 import './global.css'  // Import the global CSS file
 import '@fortawesome/fontawesome-free/css/all.css'  // Import Font Awesome CSS
-
+import '@mdi/font/css/materialdesignicons.css'
 
 createApp(App)
   .use(router)
