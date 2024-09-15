@@ -8,91 +8,111 @@
             </div>
             <div class="card-body">
               <form ref="form" @submit.prevent="submit">
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    v-model="name"
-                    :class="{ 'is-invalid': nameError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ nameError }}</div>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="label-cell"><label for="name">Name</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="name"
+                          v-model="name"
+                          :class="{ 'is-invalid': nameError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ nameError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="address">Address</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="address"
+                          v-model="address"
+                          :class="{ 'is-invalid': addressError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ addressError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="city">City</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="city"
+                          v-model="city"
+                          :class="{ 'is-invalid': cityError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ cityError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="state">State</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="state"
+                          v-model="state"
+                          :class="{ 'is-invalid': stateError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ stateError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="zipCode">Zip Code</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="zipCode"
+                          v-model="zipCode"
+                          :class="{ 'is-invalid': zipCodeError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ zipCodeError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="email">Email Address</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="email"
+                          class="form-control bordered-input"
+                          id="email"
+                          v-model="email"
+                          :class="{ 'is-invalid': emailError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ emailError }}</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><label for="telephone">Telephone</label></td>
+                      <td class="input-cell">
+                        <input
+                          type="text"
+                          class="form-control bordered-input"
+                          id="telephone"
+                          v-model="telephone"
+                          :class="{ 'is-invalid': telephoneError }"
+                          required
+                        />
+                        <div class="invalid-feedback">{{ telephoneError }}</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary mt-10">Send</button>
                 </div>
-                <div class="form-group">
-                  <label for="address">Address</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="address"
-                    v-model="address"
-                    :class="{ 'is-invalid': addressError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ addressError }}</div>
-                </div>
-                <div class="form-group">
-                  <label for="city">City</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="city"
-                    v-model="city"
-                    :class="{ 'is-invalid': cityError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ cityError }}</div>
-                </div>
-                <div class="form-group">
-                  <label for="state">State</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="state"
-                    v-model="state"
-                    :class="{ 'is-invalid': stateError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ stateError }}</div>
-                </div>
-                <div class="form-group">
-                  <label for="zipCode">Zip Code</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="zipCode"
-                    v-model="zipCode"
-                    :class="{ 'is-invalid': zipCodeError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ zipCodeError }}</div>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email Address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    v-model="email"
-                    :class="{ 'is-invalid': emailError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ emailError }}</div>
-                </div>
-                <div class="form-group">
-                  <label for="telephone">Telephone Number</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="telephone"
-                    v-model="telephone"
-                    :class="{ 'is-invalid': telephoneError }"
-                    required
-                  />
-                  <div class="invalid-feedback">{{ telephoneError }}</div>
-                </div>
-                <button type="submit" class="btn btn-primary mt-10">Send</button>
               </form>
             </div>
           </div>
@@ -190,6 +210,19 @@ export default {
 }
 .card {
   border-radius: 15px; /* Rounded corners */
+}
+.bordered-input {
+  border: 1px solid var(--text-color); /* Add border to input fields */
+  border-radius: 4px; /* Add slight rounding to the corners */
+  background-color: var(--background-color); /* Ensure background color matches theme */
+  color: var(--text-color); /* Ensure text color matches theme */
+}
+.label-cell, .input-cell {
+  padding-left: 20px; /* Add left padding to table cells */
+  padding-top: 5px; /* Add top padding to table cells */
+}
+.text-center {
+  text-align: center;
 }
 @media (max-width: 600px) {
   .intro-main {
