@@ -1,17 +1,17 @@
 <template>
   <div class="intro-main">
     <h1 class="text-h4 text-md-h2 text-center font-weight-black contact-heading">Contact Us</h1>
-    <ContactForm />
+    <ContactDetails />
   </div>
 </template>
 
 <script>
-import ContactForm from '@/components/sections/contactForm.vue'
+import ContactDetails from '@/components/sections/ContactDetails.vue'
 
 export default {
   name: 'ContactPage',
   components: {
-    ContactForm
+    ContactDetails
   }
 }
 </script>
@@ -29,6 +29,9 @@ export default {
   padding: 20px; /* Add 20px of padding */
   margin-bottom: 0; /* Remove bottom margin */
   margin-top: 80px; /* Add top margin to avoid being covered by the header */
+}
+.contact-form {
+  margin-bottom: 20px; /* Adjust the margin to reduce spacing */
 }
 @media (max-width: 600px) {
   .intro-main {
