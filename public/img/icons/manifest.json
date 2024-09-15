@@ -4,7 +4,7 @@
  "description": "Raven Mobile Auto and RV provides a wide range of repair services for your auto or recreational vehicle.",
  "start_url": ".",
  "display": "standalone",
- "display_override": ["minimal-ui", "standalone"],
+ "display_override": "minimal-ui",
  "background_color": "#696969",
  "theme_color": "#696969",
  "orientation": "any",
