@@ -1,6 +1,6 @@
 <template>
     <div class="intro-main">
-        <h1 class="text-h4 text-md-h1 text-center font-weight-black contact-heading">Our Pricing</h1>
+        <h1 class="text-h4 text-md-h2 text-center font-weight-black contact-heading">Our Pricing</h1>
         <!-- Add your pricing content here -->
     </div>
 </template>

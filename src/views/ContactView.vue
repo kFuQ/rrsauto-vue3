@@ -1,6 +1,6 @@
 <template>
   <div class="intro-main">
-    <h1 class="text-h4 text-md-h1 text-center font-weight-black contact-heading">Contact Us</h1>
+    <h1 class="text-h4 text-md-h2 text-center font-weight-black contact-heading">Contact Us</h1>
     <ContactForm />
   </div>
 </template>
