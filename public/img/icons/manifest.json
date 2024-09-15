@@ -4,8 +4,10 @@
  "description": "Raven Mobile Auto and RV provides a wide range of repair services for your auto or recreational vehicle.",
  "start_url": ".",
  "display": "standalone",
+ "display_override": ["standalone", "minimal-ui"],
  "background_color": "#696969",
  "theme_color": "#1976d2",
+ "orientation": "any",
  "icons": [
   {
    "src": "img/icons/android-icon-144x144.png",
@@ -137,6 +139,56 @@
    "sizes": "any",
    "type": "image/svg+xml",
    "purpose": "maskable"
+  }
+ ],
+ "protocol_handlers": [
+  {
+   "protocol": "mailto",
+   "url": "/contact?mailto=%s"
+  },
+  {
+   "protocol": "web+demo",
+   "url": "/contact?demo=%s"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Contact Us",
+   "short_name": "Contact",
+   "description": "Get in touch with us",
+   "url": "/contact",
+   "icons": [
+    {
+     "src": "img/icons/contact-icon.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Our Pricing",
+   "short_name": "Pricing",
+   "description": "View our pricing",
+   "url": "/pricing",
+   "icons": [
+    {
+     "src": "img/icons/pricing-icon.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "img/screenshots/screenshot1.png",
+   "sizes": "640x480",
+   "type": "image/png"
+  },
+  {
+   "src": "img/screenshots/screenshot2.png",
+   "sizes": "640x480",
+   "type": "image/png"
   }
  ]
 }
