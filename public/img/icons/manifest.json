@@ -1,12 +1,12 @@
 {
  "name": "Raven Mobile Auto and RV",
- "short_name": "RavenAuto",
+ "short_name": "RavenRV",
  "description": "Raven Mobile Auto and RV provides a wide range of repair services for your auto or recreational vehicle.",
  "start_url": ".",
  "display": "standalone",
- "display_override": ["minimal-ui"],
+ "display_override": ["minimal-ui", "standalone"],
  "background_color": "#696969",
- "theme_color": "#1976d2",
+ "theme_color": "#696969",
  "orientation": "any",
  "icons": [
   {
