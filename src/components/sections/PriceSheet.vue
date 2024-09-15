@@ -86,7 +86,7 @@ export default {
           elevation: 0,
           color: 'primary darken-1',
           description: 'Regular Service and Maintanence',
-          monthly: '$175',
+          monthly: '$180',
           yearly: '$135',
           features: [
             {
@@ -117,7 +117,7 @@ export default {
           elevation: 16,
           color: 'green darken-2',
           description: 'Engine, Transmission, Differentials, etc.',
-          monthly: '$195',
+          monthly: '$180',
           yearly: '$135',
           features: [
             {
@@ -148,7 +148,7 @@ export default {
           elevation: 0,
           color: 'orange darken-3',
           description: 'Custom Modifications, Electrical Repair',
-          monthly: '$210',
+          monthly: '$180',
           yearly: '$135',
           features: [
             {
